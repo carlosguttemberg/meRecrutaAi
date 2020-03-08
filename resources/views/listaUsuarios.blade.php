@@ -30,6 +30,13 @@
     </style>
 </head>
 <body>
+    <nav class="navbar navbar-info bg-info justify-content-between">
+      <a class="navbar-brand text-white" href="/usuarios">Me Recruta ai!!!</a>
+      <form class="form-inline">
+        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Login</button>
+      </form>
+    </nav>
+
     <div class="container" >
         <div class="card mb-3 text-center">
             <img class="card-img-top center " style="width: 100px;" src="{{asset('logo/logo.png')}}" alt="Card image cap">
